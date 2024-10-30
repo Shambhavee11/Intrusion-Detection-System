@@ -7,10 +7,10 @@ from twilio.rest import Client
 import time
 
 # Twilio setup
-twilio_account_sid = 'ACdaaae756a76dd44fe3ef2d4772c57adf'  # Replace with your Twilio Account SID
-twilio_auth_token = 'a1defcac8fbcd17bb9d9c316c75d3804'      # Replace with your Twilio Auth Token
-twilio_phone_number = '+18026250711' # Replace with your Twilio phone number
-target_phone_number = '+91-7985244736'  # Replace with the recipient's phone number
+twilio_account_sid = '----'  # Replace with your Twilio Account SID
+twilio_auth_token = '------'      # Replace with your Twilio Auth Token
+twilio_phone_number = '--------' # Replace with your Twilio phone number
+target_phone_number = '-------'  # Replace with the recipient's phone number
 
 client = Client(twilio_account_sid, twilio_auth_token)
 
